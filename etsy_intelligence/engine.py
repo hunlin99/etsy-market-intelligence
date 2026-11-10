@@ -198,7 +198,7 @@ def quick_check(record):
               'Observable criterion: ' + _safe(action['success_criterion']),
               'Effort/cost bound: ' + _safe(action['effort_limit']),
               '\nPrototype limitation: analyst judgments and source truth require human review. No live Etsy research was performed.']
-    return '\n'.join(lines) + '\n'
+    return '\n'.join(lines).rstrip() + '\n'
 
 
 def compare(records):
@@ -221,4 +221,4 @@ def compare(records):
         lines.append('| ' + ' | '.join(_safe(v) for v in vals) + ' |')
     lines += ['\nEvidence IDs are local to each candidate record. Detailed evidence and counter-cases follow.']
     lines.extend('\n' + quick_check(r) for r in records)
-    return '\n'.join(lines) + '\n'
+    return '\n'.join(lines).rstrip() + '\n'

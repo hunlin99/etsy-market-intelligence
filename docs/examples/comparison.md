@@ -90,4 +90,3 @@ Observable criterion: Evaluate orders, refunds, support time, and contribution a
 Effort/cost bound: Scenario-specific pilot only; no authorization for catalog expansion or ad spend.
 
 Prototype limitation: analyst judgments and source truth require human review. No live Etsy research was performed.
-
