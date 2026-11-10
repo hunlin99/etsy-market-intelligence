@@ -1,0 +1,52 @@
+[
+  {
+    "id": "T01",
+    "fixture": "insufficient-data.json",
+    "expected_status": "explore"
+  },
+  {
+    "id": "T02",
+    "fixture": "review-proxy.json",
+    "expected_status": "explore"
+  },
+  {
+    "id": "T03",
+    "fixture": "conflicting-evidence.json",
+    "expected_status": "research_more"
+  },
+  {
+    "id": "T04",
+    "fixture": "strong-user-bias.json",
+    "expected_status": "test_first"
+  },
+  {
+    "id": "T05",
+    "fixture": "verified-hard-failure.json",
+    "expected_status": "reject"
+  },
+  {
+    "id": "T06",
+    "fixture": "stale-fees.json",
+    "expected_status": "research_more"
+  },
+  {
+    "id": "T07",
+    "fixture": "bounded-proceed.json",
+    "expected_status": "proceed"
+  },
+  {
+    "id": "T08",
+    "fixture": "nonviable-economics.json",
+    "expected_status": "reject"
+  },
+  {
+    "id": "T09",
+    "fixture": "source-unavailable.json",
+    "expected_status": "explore"
+  },
+  {
+    "id": "T10",
+    "fixture": "seasonal-monitor.json",
+    "expected_status": "monitor"
+  }
+]

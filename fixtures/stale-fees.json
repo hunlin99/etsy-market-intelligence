@@ -1,0 +1,120 @@
+{
+  "schema_version": "0.1",
+  "record_id": "T06",
+  "as_of": "2026-11-10",
+  "research_intent": "analyze_niche",
+  "depth": "quick",
+  "brief": {
+    "question": "Is a pet care handover template worth a bounded test?",
+    "product": "Pet care handover template",
+    "scope": "Etsy digital products",
+    "geography": "unspecified",
+    "decision_target": "launch_mvp",
+    "assumptions": [
+      "No budget or hours supplied; propose at most two hours and no paid acquisition."
+    ],
+    "user_preference": ""
+  },
+  "capabilities": {
+    "web_search": false,
+    "page_fetch": false,
+    "uploaded_files": true,
+    "seller_insights": false,
+    "own_orders": false,
+    "third_party_exports": false,
+    "calculation": true
+  },
+  "hypotheses": [
+    {
+      "id": "H001",
+      "claim": "Buyers have an unmet handover need worth paying for",
+      "supporting_evidence_ids": [],
+      "disconfirming_evidence_ids": [],
+      "decision_impact": "Whether to test a paid template",
+      "status": "unknown"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E001",
+      "evidence_type": "observation",
+      "source_type": "synthetic_fixture",
+      "source_locator": "fixture://T06/E001",
+      "collected_at": "2026-11-10",
+      "original_observation": "SYNTHETIC TEST DATA: A supplied historical fee note is stale; current fees cannot be confirmed.",
+      "method": "Authored fixed scenario; not observed Etsy data",
+      "quality": {
+        "directness": "medium",
+        "reliability": "medium",
+        "freshness": "low",
+        "representativeness": "medium",
+        "independence": "medium"
+      },
+      "limitations": [
+        "Synthetic scenario only; cannot establish actual Etsy demand or profitability."
+      ],
+      "input_evidence_ids": [],
+      "derivation": null,
+      "verified_at": "2025-01-01",
+      "signal": "economics"
+    }
+  ],
+  "findings": [],
+  "gates": {
+    "platform_compliance": {
+      "status": "unknown",
+      "evidence_ids": [],
+      "reason": "Not assessed; no supporting evidence yet"
+    },
+    "customer_problem": {
+      "status": "unknown",
+      "evidence_ids": [],
+      "reason": "Not assessed; no supporting evidence yet"
+    },
+    "production_feasibility": {
+      "status": "unknown",
+      "evidence_ids": [],
+      "reason": "Not assessed; no supporting evidence yet"
+    },
+    "critical_risk": {
+      "status": "unknown",
+      "evidence_ids": [],
+      "reason": "Not assessed; no supporting evidence yet"
+    },
+    "economics": {
+      "status": "unknown",
+      "evidence_ids": [],
+      "reason": "Not assessed; no supporting evidence yet"
+    }
+  },
+  "assessment": {
+    "demand_signal_ids": [],
+    "paid_validation_ids": [],
+    "economics_evidence_ids": [],
+    "validated_target": null,
+    "conflicts": [],
+    "critical_unknowns": [
+      "Willingness to pay is unverified"
+    ],
+    "targeted_research": "Obtain current applicable fees before calculating current net contribution.",
+    "monitor_trigger": null,
+    "counter_case": "Free notes and messaging may solve the same problem without a paid template.",
+    "what_would_change_it": [
+      "Observed buyer behavior from a bounded paid test."
+    ],
+    "next_action": {
+      "action": "Request current applicable fees from an authorized source.",
+      "success_criterion": "Record source, date, seller region, currency, and fee applicability before recalculation.",
+      "effort_limit": "One bounded request; no profit prediction until verification."
+    }
+  },
+  "source_unavailable": [
+    {
+      "source_locator": "fixture://current-fees",
+      "reason": "No web access in this scenario",
+      "alternative": "Request a current authorized fee export."
+    }
+  ],
+  "decision": null,
+  "decision_history": []
+}

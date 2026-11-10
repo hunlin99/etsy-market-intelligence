@@ -4,7 +4,9 @@
 
 Etsy Market Intelligence Skill is an AI research and decision-support skill designed to help creators evaluate digital product opportunities. It brings together market observations, competitor information, customer feedback, and your own constraints to answer a practical question: **Is this idea worth my next investment of time and money?**
 
-> **Development status:** The project is at the initial scaffold stage. The capabilities and outputs below describe the intended product; they are not yet implemented or tested.
+> **🚧 Phase 1 — In Development / 第一阶段正在开发中**
+>
+> The first testing prototype is now being developed. It can validate supplied research records, apply provisional decision rules, and generate Quick Checks and opportunity comparisons. Local automated tests cover synthetic scenarios. Live Etsy research and installation in an AI host are not yet verified. The broader capabilities below describe the product direction.
 
 ## What it helps you do
 
@@ -53,8 +55,10 @@ The recommendation depends on the evidence; it is not a predetermined “yes.”
 
 ## Development direction
 
-The first milestone focuses on Quick Checks and comparisons using supplied information and prepared examples. Later milestones aim to add deeper Etsy research, including discovery, costs, and policy considerations. Cross-platform research is a future direction.
+Phase 1 is currently in development, with an offline testing prototype for Quick Checks and comparisons using supplied information and clearly marked synthetic examples. Later milestones aim to add deeper Etsy research, including discovery, costs, and policy considerations. Cross-platform research is a future direction.
 
-Live Etsy research and automated monitoring are not available in the current scaffold.
+Live Etsy research and automated monitoring are not available in this prototype. It evaluates structured analyst judgments; it does not automatically turn raw notes into verified research.
+
+For local setup, examples, and testing, see the [Phase 1 development guide](docs/phase-1-development.md).
 
 For the full project proposal, see the [development specification](docs/Etsy_Market_Intelligence_Skill_Development_Spec_v1.0.md).

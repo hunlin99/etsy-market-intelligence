@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.1",
+  "record_id": "T09",
+  "as_of": "2026-11-10",
+  "research_intent": "analyze_niche",
+  "depth": "quick",
+  "brief": {
+    "question": "Is a pet care handover template worth a bounded test?",
+    "product": "Pet care handover template",
+    "scope": "Etsy digital products",
+    "geography": "unspecified",
+    "decision_target": "launch_mvp",
+    "assumptions": [
+      "No budget or hours supplied; propose at most two hours and no paid acquisition."
+    ],
+    "user_preference": ""
+  },
+  "capabilities": {
+    "web_search": false,
+    "page_fetch": false,
+    "uploaded_files": true,
+    "seller_insights": false,
+    "own_orders": false,
+    "third_party_exports": false,
+    "calculation": true
+  },
+  "hypotheses": [
+    {
+      "id": "H001",
+      "claim": "Buyers have an unmet handover need worth paying for",
+      "supporting_evidence_ids": [],
+      "disconfirming_evidence_ids": [],
+      "decision_impact": "Whether to test a paid template",
+      "status": "unknown"
+    }
+  ],
+  "evidence": [],
+  "findings": [],
+  "gates": {
+    "platform_compliance": {
+      "status": "unknown",
+      "evidence_ids": [],
+      "reason": "Not assessed; no supporting evidence yet"
+    },
+    "customer_problem": {
+      "status": "unknown",
+      "evidence_ids": [],
+      "reason": "Not assessed; no supporting evidence yet"
+    },
+    "production_feasibility": {
+      "status": "unknown",
+      "evidence_ids": [],
+      "reason": "Not assessed; no supporting evidence yet"
+    },
+    "critical_risk": {
+      "status": "unknown",
+      "evidence_ids": [],
+      "reason": "Not assessed; no supporting evidence yet"
+    },
+    "economics": {
+      "status": "unknown",
+      "evidence_ids": [],
+      "reason": "Not assessed; no supporting evidence yet"
+    }
+  },
+  "assessment": {
+    "demand_signal_ids": [],
+    "paid_validation_ids": [],
+    "economics_evidence_ids": [],
+    "validated_target": null,
+    "conflicts": [],
+    "critical_unknowns": [
+      "Willingness to pay is unverified"
+    ],
+    "targeted_research": null,
+    "monitor_trigger": null,
+    "counter_case": "Free notes and messaging may solve the same problem without a paid template.",
+    "what_would_change_it": [
+      "Observed buyer behavior from a bounded paid test."
+    ],
+    "next_action": {
+      "action": "Interview potential users about their last pet handover and current workaround.",
+      "success_criterion": "Record the problem, workaround, and contrary feedback from three interviews; do not treat interest as purchases.",
+      "effort_limit": "Two hours, no paid acquisition; confirm affordability with the user before spending."
+    }
+  },
+  "source_unavailable": [
+    {
+      "source_locator": "fixture://unreachable-page",
+      "reason": "Page fetch failed",
+      "alternative": "Ask for a dated authorized export or proceed with explicit unknowns."
+    }
+  ],
+  "decision": null,
+  "decision_history": []
+}
